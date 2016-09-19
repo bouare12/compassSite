@@ -1,0 +1,73 @@
+body{
+	width: 810px;
+	background: #2f2f2f;
+	color: #c6c6c6;
+}
+
+form{
+	width: 170px;
+	float: right;
+	position: relative;
+	top: .3em;
+
+	input{
+		color: #6e6e6e;
+	}
+}
+
+nav	{
+	margin-top: 10px;
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-left: 150px;
+
+	ul{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		overflow: hidden;
+		line-height: 2em;
+
+		li{
+			list-style-image: none;
+			list-style-type: none;
+			margin-left: 10px;
+			white-space: nowrap;
+			float: left;
+
+			a{
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.theme{
+	position: relative;
+	top: 2px;
+	cursor: pointer;
+
+	a{
+		color: rgba(0, 0, 0, 0.8);
+		text-shadow: rgba(255, 255, 255, 0.08) 0 1px 0;
+		text-decoration: none;
+		display: block;
+		font-size: 18px;
+		width: .9em;
+		float: right;
+	}
+}
+.logo{
+	background: url('../img/ccompass-logo.png') no-repeat;
+	overflow: hidden;
+	height: 88px;
+	padding: 0;
+	margin: 0 auto 18px;
+	font-family: 'Museo Sans', "museosans-web", 'serif';
+	font-size: 35px;
+	line-height: 1.2em;
+	color: white;
+	float: right;
+	margin-top: 20px;
+}
